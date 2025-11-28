@@ -1,13 +1,13 @@
 import java.util.ArrayList;
 
 public class Hotel {
-    private ArrayList<Room> rooms;
-    private ArrayList<Booking> bookings;
+    private ArrayList<Room> rooms = new ArrayList<>();
+    private ArrayList<Booking> bookings = new ArrayList<>();
 
-    public Hotel() {
-        rooms = new ArrayList<>();
-        bookings = new ArrayList<>();
-    }
+//    public Hotel() {
+//        rooms = new ArrayList<>();
+//        bookings = new ArrayList<>();
+//    }
 
     public void addRoom(Room room) {
         rooms.add(room);
